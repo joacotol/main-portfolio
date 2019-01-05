@@ -1,0 +1,37 @@
+.navbar-dark {
+  background: rgba(33, 47, 61, 0.8);
+  transition: all 0.5s;
+}
+
+.navbar-dark:hover {
+  background: #212F3D;
+}
+
+.nav-active {
+  background: #212F3D;
+  border-radius: 5px;
+  color: #fff !important;
+}
+
+.active:hover {
+  display: none;
+}
+
+.nav-active>.nav-link {
+  border-radius: 5px;
+  color: #fff !important;
+  
+}
+.nav-item:hover{
+  background: #444E5B;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+li.nav-active>a {
+  color: #212F3D !important;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
