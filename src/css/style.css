@@ -1,5 +1,6 @@
 body {
-  background: #ABB2B9;
+  background: #abb2b9;
+  margin-top: 50px;
 }
 
 .navbar {
@@ -13,7 +14,7 @@ body {
 
 .navbar-dark {
   background: rgba(33, 47, 61, 0.8);
-  transition: all 0.5s;
+  transition: all 0.7s;
 }
 
 .navbar-dark:hover {
@@ -50,4 +51,39 @@ li.nav-active>a {
 
 .nav-link:hover {
   color: #fff !important;
+}
+
+/* INDEX - HEADER */
+#header-section {
+  background: url("../img/forest.jpg") no-repeat;
+  min-height: 650px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.dark-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  min-height: 650px;
+  position: absolute;
+  width: 100%;
+}
+
+#header-section .home-inner {
+  padding-top: 180px;
+
+}
+
+.home-inner {
+  text-shadow: 4px 2px 7px #1C2833;
+  color: #fff;
+}
+
+#header-section .text-style-4 {
+  font-size: 2em;
+}
+
+/* INDEX - SHOWCASE */
+.card {
+  width: 18rem;
 }
